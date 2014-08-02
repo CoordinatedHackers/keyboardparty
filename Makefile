@@ -7,4 +7,4 @@ CPPFLAGS+=\
 	-Werror
 
 lights: lights.cpp
-	$(CPP) -framework IOKit $(CPPFLAGS) -o $@ $<
+	$(CPP) -framework Foundation -framework IOKit -framework AudioToolbox $(CPPFLAGS) -o $@ $<

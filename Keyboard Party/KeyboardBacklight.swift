@@ -16,7 +16,8 @@ class KeyboardBacklight {
         assert(serviceObject != 0, "Failed to get service object")
         
         connect = 0
-        assert(IOServiceOpen(serviceObject, mach_task_self_, 0, &connect) == KERN_SUCCESS, "Failed to open IO service")
+        let status = IOServiceOpen(serviceObject, mach_task_self_, 0, &connect)
+        assert(status == KERN_SUCCESS, "Failed to open IO service")
     }
     
     func set(brightness: UInt64) {
@@ -24,13 +25,14 @@ class KeyboardBacklight {
         var output: UInt64 = 0
         var outputCount: UInt32 = 1
         
-        assert(IOConnectCallMethod(
+        let status = IOConnectCallMethod(
             connect, KeyboardBacklightCommand.SetLEDBrightness.rawValue,
             input, UInt32(countElements(input)),
             nil, 0,
             &output, &outputCount,
             nil, nil
-        ) == KERN_SUCCESS, "Failed to set brightness")
+        )
+        assert(status == KERN_SUCCESS, "Failed to set brightness")
     }
     
     func fade(brightness: UInt64, duration: UInt64) {
@@ -38,12 +40,13 @@ class KeyboardBacklight {
         var output: UInt64 = 0
         var outputCount: UInt32 = 1
         
-        assert(IOConnectCallMethod(
+        let status = IOConnectCallMethod(
             connect, KeyboardBacklightCommand.SetLEDFade.rawValue,
             input, UInt32(countElements(input)),
             nil, 0,
             &output, &outputCount,
             nil, nil
-        ) == KERN_SUCCESS, "Failed to set fade")
+        )
+        assert(status == KERN_SUCCESS, "Failed to set fade")
     }
 }

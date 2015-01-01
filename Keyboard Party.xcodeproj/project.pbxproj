@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E99A17BA1A55C62B002C8FAC /* 148432__neatonk__piano-loud-c4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E99A17B91A55C62B002C8FAC /* 148432__neatonk__piano-loud-c4.wav */; };
+		E99A17BC1A55C67D002C8FAC /* 148513__neatonk__piano-loud-d4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E99A17BB1A55C67D002C8FAC /* 148513__neatonk__piano-loud-d4.wav */; };
+		E99A17BE1A55C697002C8FAC /* 148524__neatonk__piano-loud-e4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E99A17BD1A55C697002C8FAC /* 148524__neatonk__piano-loud-e4.wav */; };
+		E99A17C01A55C6AD002C8FAC /* 148503__neatonk__piano-loud-g4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E99A17BF1A55C6AD002C8FAC /* 148503__neatonk__piano-loud-g4.wav */; };
+		E99A17C21A55C6C8002C8FAC /* 148488__neatonk__piano-loud-a4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E99A17C11A55C6C8002C8FAC /* 148488__neatonk__piano-loud-a4.wav */; };
+		E99A17C41A55C6D1002C8FAC /* 148431__neatonk__piano-loud-c5.wav in Resources */ = {isa = PBXBuildFile; fileRef = E99A17C31A55C6D1002C8FAC /* 148431__neatonk__piano-loud-c5.wav */; };
 		E9AA69361A4F50410008D4F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA69351A4F50410008D4F6 /* AppDelegate.swift */; };
 		E9AA69381A4F50410008D4F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA69371A4F50410008D4F6 /* ViewController.swift */; };
 		E9AA693A1A4F50410008D4F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AA69391A4F50410008D4F6 /* Images.xcassets */; };
 		E9AA693D1A4F50410008D4F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AA693B1A4F50410008D4F6 /* Main.storyboard */; };
 		E9AA69551A4F88C70008D4F6 /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA69541A4F88C70008D4F6 /* Party.swift */; };
+		E9C712A51A52EDAC00D603D1 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C712A41A52EDAC00D603D1 /* Util.swift */; };
 		E9D64DFA1A520F7F00D7B020 /* KeyboardBacklight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D64DF91A520F7F00D7B020 /* KeyboardBacklight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E99A17B91A55C62B002C8FAC /* 148432__neatonk__piano-loud-c4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "148432__neatonk__piano-loud-c4.wav"; sourceTree = "<group>"; };
+		E99A17BB1A55C67D002C8FAC /* 148513__neatonk__piano-loud-d4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "148513__neatonk__piano-loud-d4.wav"; sourceTree = "<group>"; };
+		E99A17BD1A55C697002C8FAC /* 148524__neatonk__piano-loud-e4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "148524__neatonk__piano-loud-e4.wav"; sourceTree = "<group>"; };
+		E99A17BF1A55C6AD002C8FAC /* 148503__neatonk__piano-loud-g4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "148503__neatonk__piano-loud-g4.wav"; sourceTree = "<group>"; };
+		E99A17C11A55C6C8002C8FAC /* 148488__neatonk__piano-loud-a4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "148488__neatonk__piano-loud-a4.wav"; sourceTree = "<group>"; };
+		E99A17C31A55C6D1002C8FAC /* 148431__neatonk__piano-loud-c5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "148431__neatonk__piano-loud-c5.wav"; sourceTree = "<group>"; };
 		E9AA69301A4F50410008D4F6 /* Keyboard Party.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keyboard Party.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AA69341A4F50410008D4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9AA69351A4F50410008D4F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -23,6 +36,7 @@
 		E9AA69391A4F50410008D4F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E9AA693C1A4F50410008D4F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9AA69541A4F88C70008D4F6 /* Party.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		E9C712A41A52EDAC00D603D1 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		E9D64DF91A520F7F00D7B020 /* KeyboardBacklight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBacklight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,6 +51,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E99A17B81A55C5E3002C8FAC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E99A17B91A55C62B002C8FAC /* 148432__neatonk__piano-loud-c4.wav */,
+				E99A17BB1A55C67D002C8FAC /* 148513__neatonk__piano-loud-d4.wav */,
+				E99A17BD1A55C697002C8FAC /* 148524__neatonk__piano-loud-e4.wav */,
+				E99A17BF1A55C6AD002C8FAC /* 148503__neatonk__piano-loud-g4.wav */,
+				E99A17C11A55C6C8002C8FAC /* 148488__neatonk__piano-loud-a4.wav */,
+				E99A17C31A55C6D1002C8FAC /* 148431__neatonk__piano-loud-c5.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		E9AA69271A4F50410008D4F6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +83,8 @@
 		E9AA69321A4F50410008D4F6 /* Keyboard Party */ = {
 			isa = PBXGroup;
 			children = (
+				E99A17B81A55C5E3002C8FAC /* Sounds */,
+				E9C712A41A52EDAC00D603D1 /* Util.swift */,
 				E9D64DF91A520F7F00D7B020 /* KeyboardBacklight.swift */,
 				E9AA69541A4F88C70008D4F6 /* Party.swift */,
 				E9AA69351A4F50410008D4F6 /* AppDelegate.swift */,
@@ -132,8 +161,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E99A17BE1A55C697002C8FAC /* 148524__neatonk__piano-loud-e4.wav in Resources */,
 				E9AA693A1A4F50410008D4F6 /* Images.xcassets in Resources */,
+				E99A17BC1A55C67D002C8FAC /* 148513__neatonk__piano-loud-d4.wav in Resources */,
+				E99A17BA1A55C62B002C8FAC /* 148432__neatonk__piano-loud-c4.wav in Resources */,
+				E99A17C41A55C6D1002C8FAC /* 148431__neatonk__piano-loud-c5.wav in Resources */,
+				E99A17C21A55C6C8002C8FAC /* 148488__neatonk__piano-loud-a4.wav in Resources */,
 				E9AA693D1A4F50410008D4F6 /* Main.storyboard in Resources */,
+				E99A17C01A55C6AD002C8FAC /* 148503__neatonk__piano-loud-g4.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +181,7 @@
 			files = (
 				E9D64DFA1A520F7F00D7B020 /* KeyboardBacklight.swift in Sources */,
 				E9AA69381A4F50410008D4F6 /* ViewController.swift in Sources */,
+				E9C712A51A52EDAC00D603D1 /* Util.swift in Sources */,
 				E9AA69361A4F50410008D4F6 /* AppDelegate.swift in Sources */,
 				E9AA69551A4F88C70008D4F6 /* Party.swift in Sources */,
 			);

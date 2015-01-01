@@ -20,6 +20,22 @@ class KeyboardBacklight {
         assert(status == KERN_SUCCESS, "Failed to open IO service")
     }
     
+    func get() -> UInt64 {
+        let input: [UInt64] = [0]
+        var output: UInt64 = 0
+        var outputCount: UInt32 = 1
+        
+        let status = IOConnectCallMethod(
+            connect, KeyboardBacklightCommand.GetLEDBrightness.rawValue,
+            input, UInt32(1),
+            nil, 0,
+            &output, &outputCount,
+            nil, nil
+        )
+        assert(status == KERN_SUCCESS, "Failed to set brightness")
+        return output
+    }
+    
     func set(brightness: UInt64) {
         let input: [UInt64] = [0, brightness]
         var output: UInt64 = 0

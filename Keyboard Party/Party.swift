@@ -59,7 +59,6 @@ class TypingKeyboardParty: KeyboardParty {
                     error: nil
                 )!).player.play()
                 
-                if event.ARepeat { return }
                 if !probablyFading {
                     oldBrightness = self.kb.get()
                     probablyFading = true

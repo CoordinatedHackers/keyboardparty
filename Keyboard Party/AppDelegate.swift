@@ -43,6 +43,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             partyMenuItems[mode]!.state = NSOnState
             party = mode.makeParty()
             NSUserDefaults.standardUserDefaults().setInteger(mode.rawValue, forKey: "Mode")
+            statusItem.button?.appearsDisabled = mode == .Off
         }
     }
     
